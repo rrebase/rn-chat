@@ -1,4 +1,4 @@
-# Example Chat App Server
+# Token Server
 
 This is a simple express server for providing chat tokens to clients.
 
@@ -7,11 +7,16 @@ This is a simple express server for providing chat tokens to clients.
 Create `.env` file. See `.env.example`
 
 ```bash
-# Watch for changes in ts files
+# Make sure you're in the server directory
 cd server
+
+# Install packages
+yarn
+
+# Watch for changes in TypeScript files
 yarn watch
 
-# Open another temrminal and run the dev server
+# Open another terminal and run the dev server
 yarn dev
 ```
 
